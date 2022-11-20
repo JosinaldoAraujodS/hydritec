@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
 }
 
 html {
@@ -15,7 +15,7 @@ html {
 body {
     font-size: 1.6rem;
     overflow: hidden;
-    
+
 }
 
 .logo {
@@ -26,10 +26,13 @@ body {
     text-align: center;
     max-height: 200px;
 }
-h3{
-    justify-content: center;
+
+h3 {
     display: flex;
+    justify-content: center;
+    font-weight: normal;
 }
+
 /* .gota {
     padding: 20%;
     width: 100%;
@@ -38,6 +41,24 @@ h3{
     left: 50%;
     transform: translate(-50%, -50%);
 } */
+
+.lembrar {
+    color: gray;
+    font-size: .8em;
+    display: flex;
+    padding: 15px 1px;
+}
+
+label{
+    padding: 0 2px;
+}
+
+.p{
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    margin-top: 5px;
+}
 
 .form {
     position: relative;
@@ -57,7 +78,7 @@ h3{
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(45deg, #578f9b , #669da7 , #579ba7, #33b9d4);
+    background: linear-gradient(45deg, #578f9b, #669da7, #579ba7, #33b9d4);
     background-size: 200% 200%;
     border-radius: 1rem 1rem 100% 100%;
     z-index: -1;
@@ -68,19 +89,23 @@ h3{
     0% {
         background-position: 0% 50%;
     }
-    50%{
+
+    50% {
         background-position: 100% 50%;
     }
-    100%{
+
+    100% {
         background-position: 0% 50%;
     }
 }
+
 .form_title {
     position: absolute;
     top: 3.5rem;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .form>form {
@@ -101,7 +126,7 @@ h3{
     color: #ff0000;
 }
 
-.icons img{
+.icons img {
     max-width: 20px;
     max-height: 20px;
     text-align: center;
@@ -144,8 +169,9 @@ h3{
     -ms-transform: scaleX(1);
     -o-transform: scaleX(1);
 }
+
 .email {
-    background: linear-gradient(45deg, #578f9b , #669da7 , #579ba7, #33b9d4);
+    background: linear-gradient(45deg, #578f9b, #669da7, #579ba7, #33b9d4);
     background-size: 200% 200%;
     color: white;
     font: inherit;
@@ -160,10 +186,11 @@ h3{
     justify-content: center;
     display: flex;
 }
+
 .form_button {
     display: block;
     margin: 2.5rem auto 3rem;
-    background: linear-gradient(45deg, #578f9b , #669da7 , #579ba7, #33b9d4);
+    background: linear-gradient(45deg, #578f9b, #669da7, #579ba7, #33b9d4);
     background-size: 200% 200%;
     color: white;
     font: inherit;
@@ -174,6 +201,7 @@ h3{
     border-radius: 3rem;
     animation: color2 2s ease infinite;
     -webkit-animation: color2 2s ease infinite;
+    font-weight: bold;
 }
 
 
@@ -181,10 +209,12 @@ h3{
     0% {
         background-position: 0% 50%;
     }
-    50%{
+
+    50% {
         background-position: 100% 50%;
     }
-    100%{
+
+    100% {
         background-position: 0% 50%;
     }
 }
@@ -192,6 +222,7 @@ h3{
 .form_button:hover {
     background-color: #6baac7;
 }
+
 .form_switch {
     display: block;
     text-align: center;
@@ -199,13 +230,19 @@ h3{
     color: #bdced3;
 }
 
-.form_switch a{
+.form_switch a {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #51cfb0;
+    color: #08ccd3;
 }
-.form_switch img{
+
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+.form_switch img {
     max-width: 25px;
 }
 
