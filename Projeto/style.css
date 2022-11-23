@@ -15,24 +15,6 @@ html {
 body {
     font-size: 1.6rem;
     overflow: hidden;
-    background: linear-gradient(50deg, #828788, #566163, #62959e, #67a0ac);
-    background-size: 200% 200%;
-    animation: colors 5s ease infinite;
-    -webkit-animation: colors 5s ease infinite;
-}
-
-@keyframes colors {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 .logo {
