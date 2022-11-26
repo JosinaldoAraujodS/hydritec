@@ -115,7 +115,11 @@ label{
     font-size: 2.5rem;
     font-weight: bold;
 }
-
+.icons img {
+    max-width: 20px;
+    max-height: 20px;
+    text-align: center;
+}
 
 .form>form {
     padding: 2.5rem;
@@ -135,9 +139,6 @@ label{
     color: #ff0000;
 }
 
-.icons img {
-
-}
 .anonimo img{
     bottom: 60px;
     position: relative;
