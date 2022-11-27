@@ -70,11 +70,11 @@ label{
 
 .form {
     position: relative;
-    max-width: 40rem;
-    padding: 10rem 0;
+    max-width: 50rem;
+    padding: 11rem 0;
     color: rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
-    border-radius: 1rem;
+    border-radius: 2rem;
     isolation: isolate;
     margin: auto;
     z-index: 1;
@@ -85,26 +85,9 @@ label{
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(45deg, #578f9b, #669da7, #579ba7, #33b9d4);
-    background-size: 200% 200%;
+    background: rgb(145, 185, 231);
     border-radius: 1rem 1rem 100% 100%;
     z-index: -1;
-    animation: colors 2s ease infinite;
-    -webkit-animation: colors 2s ease infinite;
-}
-
-@keyframes colors {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 .form_title {
@@ -120,7 +103,14 @@ label{
     max-height: 20px;
     text-align: center;
 }
-
+.denuncia img {
+    max-width: 80px;
+    max-height: 80px;
+    text-align: center;
+}
+.denuncia{
+    margin-left: 50px;
+}
 .form>form {
     padding: 2.5rem;
     background-color: inherit;
@@ -132,11 +122,26 @@ label{
     align-items: baseline;
     margin: 0 auto;
 }
-
+.styled {
+    background: rgb(145, 185, 231);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.form_input .styled{
+    justify-content: center;
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+}
 .form_input>i {
-    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
     margin-right: 1rem;
-    color: #ff0000;
+    color: rgb(145, 185, 231);
 }
 
 .anonimo img{
@@ -185,8 +190,7 @@ label{
 }
 
 .email {
-    background: linear-gradient(45deg, #578f9b, #669da7, #579ba7, #33b9d4);
-    background-size: 200% 200%;
+    background: rgb(145, 185, 231);
     color: white;
     font: inherit;
     border: none;
@@ -215,8 +219,7 @@ label{
 .form_button {
     display: block;
     margin: 1.5rem auto 1rem;
-    background: linear-gradient(45deg, #578f9b, #669da7, #579ba7, #33b9d4);
-    background-size: 200% 200%;
+    background: rgb(145, 185, 231);
     color: white;
     font: inherit;
     border: none;
@@ -224,24 +227,6 @@ label{
     outline: none;
     cursor: pointer;
     border-radius: 3rem;
-    animation: color2 2s ease infinite;
-    -webkit-animation: color2 2s ease infinite;
-    font-weight: bold;
-}
-
-
-@keyframes color2 {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 .form_button:hover {
