@@ -48,7 +48,13 @@ h3 {
 .message h3{
     color: #929090;
 }
+
+.input h3{
+    color: #929090;
+}
 .message textarea{
+    font-family: 'Poppins', Courier, monospace;
+    font-size: 15px;
     border: none;
     outline: none;
     position: relative;
@@ -59,6 +65,12 @@ h3 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     justify-content: center;
     text-align: center;
+    transition: transform .5s;
+}
+
+.message textarea:hover{
+    background-color: #78989b;
+    transition: 0.5s;
 }
 .lembrar {
     color: gray;
@@ -169,6 +181,13 @@ input[type=file]{
     padding: 10px 50px;
     color: #929090;
 }
+input[type=button]{
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    color: #929090;
+    z-index: 1;
+}
 input[type=tel]{
     left: 10px;
     width: 211px;
@@ -195,7 +214,14 @@ input.endereco{
     align-items: center;
     margin: 30px;
 }
-
+.message .color{
+    display: flex;
+    color: #929090;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
 .form_input .bar {
     position: absolute;
     left: 0;
@@ -268,6 +294,13 @@ a:hover{
 
 .form_switch img {
     max-width: 25px;
+} 
+.form_switch label{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   text-align: center;
 }
 
 @media screen and (min-width: 200px) {
