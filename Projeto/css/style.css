@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 html {
@@ -29,7 +28,7 @@ body a {
     margin: auto;
     justify-content: center;
     text-align: center;
-    max-height: 200px;
+    max-height: 150px;
 }
 
 h3 {
@@ -37,23 +36,29 @@ h3 {
     justify-content: center;
     font-weight: normal;
 }
-.message i{
-    font-size: 15px;
-    justify-content: center;
-    align-items: center;
-    color: #66C2C8;
-}
-.message h3{
-    font-size: 15px;
-    color: #66C2C8;
-}
-.message .logofinal{
+.message img{
     position: relative;
     display: flex;
     margin: auto;
     justify-content: center;
     text-align: center;
-    max-height: 200px;
+    max-height: 150px;
+}
+
+.message h3{
+    color: #929090;
+}
+.message textarea{
+    border: none;
+    outline: none;
+    position: relative;
+    left: 40px;
+    width: 400px;
+    height: 100px;
+    background: rgba(217, 217, 217, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    text-align: center;
 }
 .lembrar {
     color: gray;
@@ -66,17 +71,32 @@ label{
     padding: 0 2px;
 }
 
-
 .form {
     position: relative;
     max-width: 50rem;
-    padding: 11rem 0;
+    padding: 10rem 0;
     color: rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
-    border-radius: 2rem;
     isolation: isolate;
     margin: auto;
-    z-index: 1;
+}
+
+.form .anonimo  {
+    position: relative;
+    max-width: 10rem;
+    isolation: isolate;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.form img{
+        max-width: 120px;
+        max-height: 120px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
 }
 .form::before {
     content: "";
@@ -98,21 +118,19 @@ label{
     font-weight: bold;
 }
 .icons img {
-    max-width: 25px;
-    max-height: 25px;
-    text-align: center;
+    max-width: 30px;
+    max-height: 30px;
+    display: flex;
+    position: relative;
 
 }
 .denuncia img {
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 55px;
+    max-height: 55px;
     text-align: center;
 }
-.denuncia{
-    margin-left: 50px;
-}
 .form>form {
-    padding: 2.5rem;
+    padding: 1.5rem;
     background-color: inherit;
 }
 
@@ -122,35 +140,61 @@ label{
     align-items: baseline;
     margin: 0 auto;
 }
-.styled {
-    background: #66C2C8;
-    text-align: center;
-    color: white;
-    border-radius: 5px;
-}
 
-.anonimo img{
-    bottom: 60px;
-    position: relative;
-    margin: auto;
-    max-width: 120px;
-    max-height: 120px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-}
 .form_input input{
-    position: relative;
+    position: absolute;
     width: 100%;
     font: inherit;
-    padding: 1rem 0;
-    margin-top: .5rem;
+    padding: 1rem 10px;
+    margin-top: .20rem;
     border: none;
     outline: none;
     background: rgba(217, 217, 217, 0.1);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    bottom: 0;
 }
 
+input[type=text]{
+    padding: 10px 50px;
+}
+input[type=password]{
+    padding: 10px 50px;
+}
+input[type=email]{
+    padding: 10px 50px;
+}
+input[type=file]{
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+    color: #929090;
+}
+input[type=tel]{
+    left: 10px;
+    width: 211px;
+    height: 50px;
+    padding: 10px 50px;
+    color: #929090;
+}
+input.endereco{
+    left: 10px;
+    position: absolute;
+    width: 211px;
+    height: 50px;
+    color: #929090;
+}
+
+.form_input i{
+    margin: 15px;
+}
+.form_input .color{
+    display: flex;
+    color: #929090;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
 
 .form_input .bar {
     position: absolute;
@@ -176,23 +220,9 @@ label{
     transform: scaleX(1);
 }
 
-.email {
-    background: #66C2C8;
-    color: white;
-    font: inherit;
-    border: none;
-    padding: 1rem 2rem;
-    cursor: pointer;
-    border-radius: 30px;
-    animation: color2 2s ease infinite;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-weight: bold;
-}
 .form_button {
-    display: block;
-    margin: 1.5rem auto 1rem;
+    display: flex;
+    margin: 1.0rem auto 1rem;
     background: #66C2C8;
     color: white;
     font: inherit;
@@ -203,8 +233,9 @@ label{
     border-radius: 3rem;
     transition: 0.5s;
     box-shadow: rgba(0, 0, 0, .1);
+    align-items: center;
+    justify-content: center;
 }
-
 .form_button:hover {
     background-color: #26777e;
 }

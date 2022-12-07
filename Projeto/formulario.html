@@ -18,42 +18,44 @@
         <form action="">
 
             <div class="message">
-                <textarea name="message" class="form-control" id="" placeholder="MENSAGEM" rows="5" cols="45" required></textarea>
-                <span class="bar"></span>
-                <i class="icons"><img src="img/anonimato.png" rows="10" cols="40" alt="">Lembrando que sua denúncia será feita de forma anônima</i>
-                <span class="bar"></span>
+                <textarea name="message" id="" placeholder="MENSAGEM" rows="5" cols="20" required></textarea>
+                <i class="icons"><img src="img/anonimato.png" alt=""></i><h3>Denúncias 100% anônimas</h3>
             </div>
             <div class="form_input">
                 <i class="icons"><img src="img/arquivo.png" alt=""></i>
-                <span class="bar"></span>
-                <input type="file" placeholder="Senha">
+                <input type="file" placeholder="file">
                 <span class="bar"></span>
             </div>
             <div class="form_input">
                 <i class="icons"><img src="img/localização.png" alt=""></i>
-                <input type="text" placeholder="Endereço">
+                <input type="text" placeholder="Endereço" class="endereco">
                 <span class="bar"></span>
+                <div class="form_input">
                 <i class="icons"><img src="img/contato.png" alt=""></i>
-                <input type="text" placeholder="(DDD)XXXX-XXXX">
+                <input type="tel" id="telefone" required placeholder="(xx) xxxxx-xxxx"class="tel">
                 <span class="bar"></span>
             </div>
+        </div>
+        <div class="form_input">
+            <i class="icons"><img src="img/cidade.png" alt=""></i>
+            <input type="text" placeholder="Cidade" class="endereco">
+            <span class="bar"></span>
             <div class="form_input">
-                <i class="icons"><img src="img/cidade.png" alt=""></i>
-                <input type="text" placeholder="Cidade">
-                <span class="bar"></span>
-                <i class="icons"><img src="img/estado.png" alt=""></i>
-                <input type="text" placeholder="Estado">
-                <span class="bar"></span>
-            </div>
+            <i class="icons"><img src="img/estado.png" alt=""></i>
+            <input type="tel" id="telefone" required placeholder="Estado"class="tel">
+            <span class="bar"></span>
+        </div>
+    </div>
             <div class="form_input">
                 <i class="icons"><img src="img/bairro.png" alt=""></i>
-                <input type="text" placeholder="Bairro">
-                <button type="submit" class="form_button"><a href="agradecimento.html">Enviar</a></button>
+                <input type="text" placeholder="Bairro" class="endereco">
                 <span class="bar"></span>
-            </div>
-            <button type="submit" class="form_button"><a href="login.html">Inicio</a></button>
+                <a class="form_button" href="agradecimento.html">Enviar</a>
+        </div>
+        <a class="form_button" href="login.html">Inicio</a>
+        <!-- <button type="submit" class="form_button"><a href="agradecimento.html">Enviar</a></button>
+        <button type="submit" class="form_button"><a href="login.html">Inicio</a></button> -->
         </form>
     </div>
-    
 </body>
 </html>
