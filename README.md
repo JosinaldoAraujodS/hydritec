@@ -1,13 +1,13 @@
 <span align="center">
 
-##  Site alta fidelidade projeto integrador  2.0 👋 
+##  Site alta fidelidade projeto integrador  3.0 👋 
 ## Ultima Atualização realizada por Wálisson Soares !
 </span>
 
 
+![criaconta](https://user-images.githubusercontent.com/26144781/206184268-33150452-3246-46f3-a2c2-d104741939bf.JPG)
+![denuncia](https://user-images.githubusercontent.com/26144781/206184272-fe7322fd-05f7-4c83-87a4-0b012a3b634b.JPG)
+![formulario](https://user-images.githubusercontent.com/26144781/206184274-8cfb7131-5c1a-4d64-8399-816e8791474c.JPG)
+![login](https://user-images.githubusercontent.com/26144781/206184276-bc7052c0-cbca-4b66-a6e7-36a61e3098fc.JPG)
+![recuperar](https://user-images.githubusercontent.com/26144781/206184280-d5354d1f-39df-4933-838a-71ab146c4914.JPG)
 
-![1](https://user-images.githubusercontent.com/26144781/204066538-1ac8ad52-6b9b-4a9e-a263-62ab0514fe64.JPG)
-![2](https://user-images.githubusercontent.com/26144781/204066540-90cd1719-a2ce-4b92-a3c8-028bc6f41f47.JPG)
-![3](https://user-images.githubusercontent.com/26144781/204066541-3265bd9e-efc4-40ce-b4b3-7d7f1c2f9c50.JPG)
-![4](https://user-images.githubusercontent.com/26144781/204066542-af388df1-2915-4fd5-bdb5-e2f961ff4b58.JPG)
-![5](https://user-images.githubusercontent.com/26144781/204066543-9baf5bbe-6dab-41b0-92ad-db827c75c6d9.JPG)
