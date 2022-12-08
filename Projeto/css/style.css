@@ -52,6 +52,9 @@ h3 {
 .input h3{
     color: #929090;
 }
+.form_input h3{
+    color:#929090;
+}
 .message textarea{
     font-family: 'Poppins', Courier, monospace;
     font-size: 15px;
@@ -137,15 +140,17 @@ label{
 
 }
 .denuncia img {
-    max-width: 55px;
-    max-height: 55px;
-    text-align: center;
+    bottom: 0px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+    max-width: 45px;
+    max-height: 45px;
 }
 .form>form {
     padding: 1.5rem;
     background-color: inherit;
 }
-
 .form_input {
     position: relative;
     display: flex;
