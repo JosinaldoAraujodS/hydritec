@@ -11,41 +11,8 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    font-size: 1.6rem;
-    overflow: hidden;
-}
-body a {
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-    font-size: 1.6rem;
-    overflow: hidden;
-}
-.logo {
-    position: relative;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
-    max-height: 150px;
-}
 
-h3 {
-    display: flex;
-    justify-content: center;
-    font-weight: normal;
-}
-.message img{
-    position: relative;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
-    max-height: 150px;
-}
-
-.message h3{
+.message i{
     color: #929090;
 }
 
@@ -61,18 +28,17 @@ h3 {
     border: none;
     outline: none;
     position: relative;
-    left: 40px;
-    width: 400px;
+    left: 10px;
+    width: 430px;
     height: 100px;
     background: rgba(217, 217, 217, 0.1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     justify-content: center;
     text-align: center;
-    transition: transform .5s;
 }
 
 .message textarea:hover{
-    background-color: #78989b;
+    background-color: #95a0a1;
     transition: 0.5s;
 }
 .lembrar {
@@ -91,20 +57,17 @@ label{
     max-width: 50rem;
     padding: 10rem 0;
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     isolation: isolate;
     margin: auto;
 }
 
 .form .anonimo  {
-    position: relative;
-    max-width: 10rem;
-    isolation: isolate;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+    position: absolute;
+    width: 213px;
+    height: 127px;
+    left: 152px;
+    top: 20px;
 }
 .form img{
         max-width: 120px;
@@ -115,12 +78,13 @@ label{
 }
 .form::before {
     content: "";
+    max-width: 500px;
+    max-height: 140px;
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
     background: #66C2C8;
-    border-radius: 1rem 1rem 100% 100%;
     z-index: -1;
 }
 
@@ -130,14 +94,12 @@ label{
     left: 50%;
     transform: translateX(-50%);
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 'Poppins';
 }
 .icons img {
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 20px;
+    max-height: 20px;
     display: flex;
-    position: relative;
-
 }
 .denuncia img {
     bottom: 0px;
@@ -152,23 +114,25 @@ label{
     background-color: inherit;
 }
 .form_input {
+    padding: 15px 0 5px;
     position: relative;
     display: flex;
     align-items: baseline;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .form_input input{
     position: absolute;
     width: 100%;
     font: inherit;
-    padding: 1rem 10px;
-    margin-top: .20rem;
+    padding: 0.5rem 5px;
+    margin: 1px;
     border: none;
     outline: none;
     background: rgba(217, 217, 217, 0.1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
     bottom: 0;
+    top: 10px;
 }
 
 input[type=text]{
@@ -183,33 +147,17 @@ input[type=email]{
 input[type=file]{
     align-items: center;
     justify-content: center;
-    padding: 10px 50px;
-    color: #929090;
-}
-input[type=button]{
-    align-items: center;
-    justify-content: center;
-    padding: 10px 50px;
-    color: #929090;
-    z-index: 1;
-}
-input[type=tel]{
-    left: 10px;
-    width: 211px;
-    height: 50px;
-    padding: 10px 50px;
+    padding: 5px 50px;
     color: #929090;
 }
 input.endereco{
-    left: 10px;
-    position: absolute;
     width: 211px;
-    height: 50px;
+    padding: 5px 50px;
     color: #929090;
 }
 
 .form_input i{
-    margin: 15px;
+    margin: 8px;
 }
 .form_input .color{
     display: flex;
@@ -238,6 +186,7 @@ input.endereco{
 
 .form_input .bar::before {
     content: '';
+    display: flex;
     position: absolute;
     background-color: #66C2C8;
     width: 100%;
@@ -286,6 +235,7 @@ input.endereco{
 }
 
 .form_switch img{
+    max-width: 25px;
     margin: 20px;
   position: relative;
   text-align: center;
@@ -296,12 +246,9 @@ a:hover{
     color: aqua;
     text-decoration: underline;
 }
-
-.form_switch img {
-    max-width: 25px;
-} 
 .form_switch label{
-    display: inline-flex;
+    display: flex;
+    margin: 10px;
     justify-content: center;
     align-items: center;
     position: relative;
